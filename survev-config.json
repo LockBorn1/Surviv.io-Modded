@@ -1,0 +1,14 @@
+{
+    "apiKey": "DoTErkQCXFeNIHjcGwkcljyyBcTrRm2hlzll8m07YcQ=",
+    "gameServer": {
+        "apiServerUrl": "http://75.179.177.175"
+    },
+    "regions": {
+        "na": {
+            "https": false,
+            "address": "75.179.177.175:8001",
+            "l10n": "index-north-america"
+        }
+    },
+    "thisRegion": "na"
+}
