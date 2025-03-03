@@ -86,8 +86,8 @@ const BaseDefs: Record<string, MeleeDef> = {
         quality: 0,
         autoAttack: false,
         switchDelay: 0.1,
-        damage: 50,
-        obstacleDamage: 5,
+        damage: 10,
+        obstacleDamage: 2,
         headshotMult: 1,
         attack: {
             offset: {
@@ -123,8 +123,8 @@ const BaseDefs: Record<string, MeleeDef> = {
         quality: 0,
         autoAttack: false,
         switchDelay: 0.25,
-        damage: 24,
-        obstacleDamage: 1,
+        damage: 25,
+        obstacleDamage: 3,
         headshotMult: 1,
         noPotatoSwap: true,
         noDropOnDeath: true,
@@ -180,8 +180,8 @@ const BaseDefs: Record<string, MeleeDef> = {
         quality: 0,
         autoAttack: false,
         switchDelay: 0.25,
-        damage: 24,
-        obstacleDamage: 1,
+        damage: 25,
+        obstacleDamage: 3,
         headshotMult: 1,
         noPotatoSwap: true,
         noDropOnDeath: true,
@@ -236,8 +236,8 @@ const BaseDefs: Record<string, MeleeDef> = {
         quality: 0,
         autoAttack: false,
         switchDelay: 0.25,
-        damage: 24,
-        obstacleDamage: 1,
+        damage: 25,
+        obstacleDamage: 3,
         headshotMult: 1,
         noPotatoSwap: true,
         noDropOnDeath: true,
@@ -291,8 +291,8 @@ const BaseDefs: Record<string, MeleeDef> = {
         quality: 0,
         autoAttack: false,
         switchDelay: 0.25,
-        damage: 24,
-        obstacleDamage: 1,
+        damage: 25,
+        obstacleDamage: 3,
         headshotMult: 1,
         noPotatoSwap: true,
         noDropOnDeath: true,
@@ -346,8 +346,8 @@ const BaseDefs: Record<string, MeleeDef> = {
         quality: 0,
         autoAttack: false,
         switchDelay: 0.25,
-        damage: 24,
-        obstacleDamage: 1,
+        damage: 25,
+        obstacleDamage: 3,
         headshotMult: 1,
         noPotatoSwap: true,
         noDropOnDeath: true,
@@ -402,8 +402,8 @@ const BaseDefs: Record<string, MeleeDef> = {
         cleave: true,
         autoAttack: false,
         switchDelay: 0.25,
-        damage: 33,
-        obstacleDamage: 1,
+        damage: 35,
+        obstacleDamage: 3,
         headshotMult: 1,
         noPotatoSwap: true,
         attack: {
@@ -458,7 +458,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 44,
-        obstacleDamage: 1,
+        obstacleDamage: 3,
         headshotMult: 1,
         noPotatoSwap: true,
         attack: {
@@ -515,7 +515,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 36,
-        obstacleDamage: 1.92,
+        obstacleDamage: 3,
         headshotMult: 1,
         attack: {
             offset: {
@@ -628,7 +628,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 40,
-        obstacleDamage: 1.5,
+        obstacleDamage: 2,
         headshotMult: 1,
         attack: {
             offset: {
@@ -685,7 +685,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 56,
-        obstacleDamage: 1.92,
+        obstacleDamage: 2,
         headshotMult: 1,
         attack: {
             offset: {
@@ -742,7 +742,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 60,
-        obstacleDamage: 1.92,
+        obstacleDamage: 2,
         headshotMult: 1,
         attack: {
             offset: {
@@ -796,8 +796,8 @@ const BaseDefs: Record<string, MeleeDef> = {
         quality: 1,
         autoAttack: true,
         switchDelay: 0.25,
-        damage: 18,
-        obstacleDamage: 1,
+        damage: 22,
+        obstacleDamage: 2,
         headshotMult: 1,
         attack: {
             offset: {
@@ -851,7 +851,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 60,
-        obstacleDamage: 0.8,
+        obstacleDamage: 1.5,
         headshotMult: 1,
         attack: {
             offset: {
@@ -941,7 +941,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 40,
-        obstacleDamage: 1,
+        obstacleDamage: 3,
         headshotMult: 1,
         noPotatoSwap: true,
         attack: {
@@ -996,7 +996,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 33,
-        obstacleDamage: 1.4,
+        obstacleDamage: 3,
         headshotMult: 1,
         noPotatoSwap: true,
         attack: {
