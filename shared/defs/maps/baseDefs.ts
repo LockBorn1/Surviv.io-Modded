@@ -365,7 +365,7 @@ export const Main: MapDef = {
         ],
         tier_airdrop_mythic: [
             { name: "scarssr", count: 1, weight: 50 }, // ?
-            { name: "usas", count: 1, weight: 50 }  // ?
+            { name: "usas", count: 1, weight: 50 },  // ?
             { name: "p30l_dual", count: 1, weight: 50 }, // ?
         ],
         tier_airdrop_ammo: [
