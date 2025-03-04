@@ -32,7 +32,7 @@ export enum Action {
 
 export enum WeaponSlot {
     Primary,
-    secondary,
+    Secondary,
     Secondary,
     Melee,
     Throwable,
