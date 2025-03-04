@@ -32,6 +32,7 @@ export enum Action {
 
 export enum WeaponSlot {
     Primary,
+    secondary,
     Secondary,
     Melee,
     Throwable,
@@ -171,7 +172,7 @@ export const GameConfig = {
         /* STRIP_FROM_PROD_CLIENT:START */
         defaultItems: {
             weapons: [
-                { type: "", ammo: 0 },
+                { type: "awc", ammo: 1 },
                 { type: "", ammo: 0 },
                 { type: "fists", ammo: 0 },
                 { type: "", ammo: 0 },
@@ -327,14 +328,14 @@ export const GameConfig = {
             "2xscope": 36,
             "4xscope": 48,
             "8xscope": 68,
-            "15xscope": 104,
+            "15xscope": 200,
         } as Record<string, number>,
         mobile: {
             "1xscope": 32,
             "2xscope": 40,
             "4xscope": 48,
             "8xscope": 64,
-            "15xscope": 88,
+            "15xscope": 200,
         } as Record<string, number>,
     },
     bagSizes: {
