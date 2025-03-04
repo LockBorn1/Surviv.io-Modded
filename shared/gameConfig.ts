@@ -33,7 +33,7 @@ export enum Action {
 export enum WeaponSlot {
     Primary,
     Secondary,
-    Secondary,
+    Tertiary,
     Melee,
     Throwable,
     Count,
@@ -81,6 +81,7 @@ export enum Input {
     Loot,
     EquipPrimary,
     EquipSecondary,
+    EquipTertiary,
     EquipMelee,
     EquipThrowable,
     EquipFragGrenade,
@@ -112,7 +113,7 @@ export const GameConfig = {
     Input,
     EmoteSlot,
     WeaponSlot,
-    WeaponType: ["gun", "gun", "melee", "throwable"] as const,
+    WeaponType: ["gun", "gun", "gun", "melee", "throwable"] as const,
     DamageType,
     Action,
     Anim,
@@ -154,7 +155,7 @@ export const GameConfig = {
         reviveDuration: 8,
         reviveRange: 5,
         crawlTime: 0.75,
-        teammateSpawnRadius: 5, // radius of circle that teammates spawn inside of, relative to the first player on the team to join
+        teammateSpawnRadius: 5,
         emoteSoftCooldown: 2,
         emoteHardCooldown: 6,
         emoteThreshold: 6,
@@ -173,6 +174,7 @@ export const GameConfig = {
         defaultItems: {
             weapons: [
                 { type: "awc", ammo: 1 },
+                { type: "", ammo: 0 },
                 { type: "", ammo: 0 },
                 { type: "fists", ammo: 0 },
                 { type: "", ammo: 0 },
