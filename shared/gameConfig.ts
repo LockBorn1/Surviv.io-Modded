@@ -33,7 +33,6 @@ export enum Action {
 export enum WeaponSlot {
     Primary,
     Secondary,
-    Tertiary,
     Melee,
     Throwable,
     Count,
@@ -81,7 +80,6 @@ export enum Input {
     Loot,
     EquipPrimary,
     EquipSecondary,
-    EquipTertiary,
     EquipMelee,
     EquipThrowable,
     EquipFragGrenade,
@@ -113,7 +111,7 @@ export const GameConfig = {
     Input,
     EmoteSlot,
     WeaponSlot,
-    WeaponType: ["gun", "gun", "gun", "melee", "throwable"] as const,
+    WeaponType: ["gun", "gun", "melee", "throwable"] as const,
     DamageType,
     Action,
     Anim,
@@ -132,7 +130,7 @@ export const GameConfig = {
         radius: 1,
         maxVisualRadius: 3.75,
         maxInteractionRad: 3.5,
-        health: 125,
+        health: 100,
         reviveHealth: 24,
         minActiveTime: 10,
         boostDecay: 0.33,
@@ -142,8 +140,8 @@ export const GameConfig = {
         scopeDelay: 0.25,
         baseSwitchDelay: 0.25,
         freeSwitchCooldown: 1,
-        headshotChance: 0.2,
-        moveSpeed: 15,
+        headshotChance: 0.15,
+        moveSpeed: 12,
         waterSpeedPenalty: 3,
         cookSpeedPenalty: 3,
         frozenSpeedPenalty: 3,
@@ -155,7 +153,7 @@ export const GameConfig = {
         reviveDuration: 8,
         reviveRange: 5,
         crawlTime: 0.75,
-        teammateSpawnRadius: 5,
+        teammateSpawnRadius: 5, // radius of circle that teammates spawn inside of, relative to the first player on the team to join
         emoteSoftCooldown: 2,
         emoteHardCooldown: 6,
         emoteThreshold: 6,
@@ -173,7 +171,6 @@ export const GameConfig = {
         /* STRIP_FROM_PROD_CLIENT:START */
         defaultItems: {
             weapons: [
-                { type: "awc", ammo: 1 },
                 { type: "", ammo: 0 },
                 { type: "", ammo: 0 },
                 { type: "fists", ammo: 0 },
@@ -224,7 +221,7 @@ export const GameConfig = {
     airdrop: {
         actionOffset: 0,
         fallTime: 8,
-        crushDamage: 125,
+        crushDamage: 100,
         planeVel: 48,
         planeRad: 150,
         soundRangeMult: 2.5,
@@ -330,14 +327,14 @@ export const GameConfig = {
             "2xscope": 36,
             "4xscope": 48,
             "8xscope": 68,
-            "15xscope": 200,
+            "15xscope": 104,
         } as Record<string, number>,
         mobile: {
             "1xscope": 32,
             "2xscope": 40,
             "4xscope": 48,
             "8xscope": 64,
-            "15xscope": 200,
+            "15xscope": 88,
         } as Record<string, number>,
     },
     bagSizes: {
