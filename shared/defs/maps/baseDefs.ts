@@ -572,7 +572,7 @@ export const Main: MapDef = {
                 shack_03b: { small: 2, large: 3 },
                 greenhouse_01: 1,
                 cache_01: 1,
-                saloon: 1, // west
+                cache_02: 1, // west
                 cache_07: 1,
                 bunker_structure_01: { odds: 0.05 },
                 bunker_structure_02: 1,
