@@ -231,10 +231,10 @@ export const Main: MapDef = {
             { name: "m1100", count: 1, weight: 30 },
             { name: "mp220", count: 1, weight: 30 },
             { name: "saiga", count: 1, weight: 30 },
-            { name: "scorpion", count: 1, weight: 20 },
+            { name: "scorpion", count: 1, weight: 3 },
             { name: "awc", count: 1, weight: 35 },
             { name: "usas", count: 1, weight: 30 },
-            { name: "scarssr", count: 1, weight: 35 },
+            { name: "scarssr", count: 1, weight: 30 },
             { name: "deagle", count: 1, weight: 20 },
             { name: "vector", count: 1, weight: 25 },
             { name: "sv98", count: 1, weight: 20 },
@@ -360,7 +360,7 @@ export const Main: MapDef = {
             { name: "pkp", count: 1, weight: 6 },
             { name: "m249", count: 1, weight: 6 },
             { name: "m4a1", count: 1, weight: 6 },
-            { name: "scorpion", count: 1, weight: 6 }, // ?
+            { name: "scorpion", count: 1, weight: 1 }, // ?
             { name: "ots38_dual", count: 1, weight: 6 },
         ],
         tier_airdrop_mythic: [
@@ -552,7 +552,7 @@ export const Main: MapDef = {
                 container_03: 10,
                 container_04: 10,
                 shack_01: 10,
-                outhouse_01: 10,
+                outhouse_01: 15,
                 loot_tier_1: 24,
                 loot_tier_beach: 6,
             },
