@@ -231,17 +231,17 @@ export const Main: MapDef = {
             { name: "m1100", count: 1, weight: 30 },
             { name: "mp220", count: 1, weight: 30 },
             { name: "saiga", count: 1, weight: 30 },
-            { name: "scorpion", count: 1, weight: 3 },
-            { name: "awc", count: 1, weight: 35 },
+            { name: "grozas", count: 1, weight: 30 },
+            { name: "awc", count: 1, weight: 34 },
             { name: "usas", count: 1, weight: 30 },
             { name: "scarssr", count: 1, weight: 30 },
             { name: "deagle", count: 1, weight: 20 },
-            { name: "vector", count: 1, weight: 25 },
+            { name: "vector", count: 1, weight: 22 },
             { name: "sv98", count: 1, weight: 20 },
             { name: "spas12", count: 1, weight: 20 },
             { name: "qbb97", count: 1, weight: 20 },
             { name: "flare_gun", count: 1, weight: 20 }, // !
-            { name: "flare_gun_dual", count: 1, weight: 20 }, // !
+            { name: "flare_gun_dual", count: 2, weight: 20 }, // !
             { name: "groza", count: 1, weight: 20 },
             { name: "scout_elite", count: 1, weight: 35 },
             { name: "vss", count: 1, weight: 35 }, // !
@@ -290,9 +290,9 @@ export const Main: MapDef = {
         tier_khaki_outfit: [{ name: "outfitKhaki", count: 1, weight: 1 }],
         tier_pirate_melee: [{ name: "hook", count: 1, weight: 1 }],
         tier_hatchet: [
-            { name: "vector", count: 1, weight: 25 },
+            { name: "vector", count: 1, weight: 20 },
             { name: "hk416", count: 1, weight: 20 },
-            { name: "mp220", count: 1, weight: 30 },
+            { name: "mp220", count: 1, weight: 20 },
             { name: "pkp", count: 1, weight: 20 },
             { name: "m249", count: 1, weight: 20 },
             { name: "m9", count: 1, weight: 0.001 },
@@ -307,7 +307,7 @@ export const Main: MapDef = {
         tier_shotguns: [
             { name: "spas12", count: 1, weight: 5 }, // ?
             { name: "mp220", count: 1, weight: 5 }, // ?
-            { name: "m1100", count: 1, weight: 3 }, // ?
+            { name: "m1100", count: 1, weight: 2 }, // ?
             { name: "m870", count: 1, weight: 5 }, // ?
             { name: "saiga", count: 1, weight: 5 }, // ?
             { name: "usas", count: 1, weight: 5 }, // ?
@@ -330,7 +330,7 @@ export const Main: MapDef = {
             { name: "outfitKeyLime", count: 1, weight: 0.15 }, // ?
             { name: "outfitWoodland", count: 1, weight: 0.1 }, // ?
             { name: "outfitCamo", count: 1, weight: 0.1 }, // ?
-            { name: "outfitGhillie", count: 1, weight: 0.01 }, // ?
+            { name: "outfitGhillie", count: 1, weight: 1 }, // ?
         ],
         tier_islander_outfit: [{ name: "outfitIslander", count: 1, weight: 1 }],
         tier_imperial_outfit: [{ name: "outfitImperial", count: 1, weight: 1 }],
@@ -346,12 +346,12 @@ export const Main: MapDef = {
             { name: "m39", count: 1, weight: 5 },
             { name: "saiga", count: 1, weight: 5 },
             { name: "deagle", count: 1, weight: 5 },
-            { name: "vector", count: 1, weight: 7 },
+            { name: "vector", count: 1, weight: 5 },
             { name: "sv98", count: 1, weight: 5 },
             { name: "qbb97", count: 1, weight: 5 },
-            { name: "m9", count: 1, weight: 0.01 },
+            { name: "scorpion", count: 1, weight: 6 },
             { name: "flare_gun", count: 1, weight: 1 },
-            { name: "scout_elite", count: 1, weight: 6 },
+            { name: "scout_elite", count: 1, weight: 5 },
             { name: "vss", count: 1, weight: 5 }, // !
         ],
         tier_airdrop_rare: [
