@@ -822,19 +822,7 @@ const SkinDefs: Record<string, OutfitDef> = {
             tint: 0xffffff,
         },
     }),
-    outfitGhillie: defineOutfitSkin("outfitBase", {
-        name: "Ghillie Suit",
-        ghillie: false,
-        skinImg: {
-            baseTint: 8630096,
-            baseSprite: "player-base-01.img",
-            handTint: 8630096,
-            handSprite: "player-hands-01.img",
-            footTint: 8630096,
-            footSprite: "player-feet-01.img",
-            backpackTint: 6697728,
-            backpackSprite: "player-circle-base-01.img",
-        },
+   
         lootImg: {
             sprite: "loot-shirt-01.img",
             tint: 8630096,
