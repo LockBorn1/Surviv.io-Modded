@@ -323,18 +323,18 @@ export const GameConfig = {
     },
     scopeZoomRadius: {
         desktop: {
-            "1xscope": 28,
-            "2xscope": 36,
+            "1xscope": 32,
+            "2xscope": 40,
             "4xscope": 48,
-            "8xscope": 68,
-            "15xscope": 175,
+            "8xscope": 64,
+            "15xscope": 100,
         } as Record<string, number>,
         mobile: {
             "1xscope": 32,
             "2xscope": 40,
             "4xscope": 48,
             "8xscope": 64,
-            "15xscope": 175,
+            "15xscope": 100,
         } as Record<string, number>,
     },
     bagSizes: {
