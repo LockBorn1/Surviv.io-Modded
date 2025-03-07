@@ -47,7 +47,7 @@ for (const melee in MeleeDefs) {
 
 const bots = new Set<Bot>();
 
-let allBotsJoined = true;
+let allBotsJoined = false;
 
 interface GameObject {
     __id: number;
