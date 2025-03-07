@@ -327,11 +327,11 @@ export const Main: MapDef = {
         ],
         tier_forest_helmet: [{ name: "helmet03_forest", count: 1, weight: 1 }],
         tier_outfits: [
-            { name: "outfitCobaltShell", count: 1, weight: 0.2 }, // ?
-            { name: "outfitKeyLime", count: 1, weight: 0.15 }, // ?
-            { name: "outfitWoodland", count: 1, weight: 0.1 }, // ?
-            { name: "outfitCamo", count: 1, weight: 0.1 }, // ?
-            { name: "outfitGhillie", count: 1, weight: 1 }, // ?
+            { name: "outfitCobaltShell", count: 1, weight: 3 }, // ?
+            { name: "outfitKeyLime", count: 1, weight: 3 }, // ?
+            { name: "outfitWoodland", count: 1, weight: 3 }, // ?
+            { name: "outfitCamo", count: 1, weight: 3 }, // ?
+            { name: "outfitGhillie", count: 1, weight: 0.5 }, // ?
         ],
         tier_islander_outfit: [{ name: "outfitIslander", count: 1, weight: 1 }],
         tier_imperial_outfit: [{ name: "outfitImperial", count: 1, weight: 1 }],
