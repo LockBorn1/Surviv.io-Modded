@@ -87,7 +87,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.1,
         damage: 10,
-        obstacleDamage: 2,
+        obstacleDamage: 10,
         headshotMult: 1,
         attack: {
             offset: {
@@ -124,7 +124,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 25,
-        obstacleDamage: 3,
+        obstacleDamage: 10,
         headshotMult: 1,
         noPotatoSwap: true,
         noDropOnDeath: true,
@@ -181,7 +181,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 25,
-        obstacleDamage: 3,
+        obstacleDamage: 10,
         headshotMult: 1,
         noPotatoSwap: true,
         noDropOnDeath: true,
@@ -237,7 +237,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 25,
-        obstacleDamage: 3,
+        obstacleDamage: 10,
         headshotMult: 1,
         noPotatoSwap: true,
         noDropOnDeath: true,
@@ -292,7 +292,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 25,
-        obstacleDamage: 3,
+        obstacleDamage: 10,
         headshotMult: 1,
         noPotatoSwap: true,
         noDropOnDeath: true,
@@ -347,7 +347,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 25,
-        obstacleDamage: 3,
+        obstacleDamage: 10,
         headshotMult: 1,
         noPotatoSwap: true,
         noDropOnDeath: true,
@@ -403,7 +403,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 35,
-        obstacleDamage: 3,
+        obstacleDamage: 10,
         headshotMult: 1,
         noPotatoSwap: true,
         attack: {
@@ -458,7 +458,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 44,
-        obstacleDamage: 3,
+        obstacledamage: 10,
         headshotMult: 1,
         noPotatoSwap: true,
         attack: {
@@ -515,7 +515,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 36,
-        obstacleDamage: 3,
+        obstacledamage: 10,
         headshotMult: 1,
         attack: {
             offset: {
@@ -628,7 +628,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 40,
-        obstacleDamage: 2,
+        obstacledamage: 10,
         headshotMult: 1,
         attack: {
             offset: {
@@ -685,7 +685,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 56,
-        obstacleDamage: 2,
+        obstacledamage: 10,
         headshotMult: 1,
         attack: {
             offset: {
@@ -742,7 +742,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 60,
-        obstacleDamage: 2,
+        obstacledamage: 10,
         headshotMult: 1,
         attack: {
             offset: {
@@ -797,7 +797,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: true,
         switchDelay: 0.25,
         damage: 22,
-        obstacleDamage: 2,
+        obstacledamage: 10,
         headshotMult: 1,
         attack: {
             offset: {
@@ -941,7 +941,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 40,
-        obstacleDamage: 3,
+        obstacledamage: 10,
         headshotMult: 1,
         noPotatoSwap: true,
         attack: {
@@ -996,7 +996,7 @@ const BaseDefs: Record<string, MeleeDef> = {
         autoAttack: false,
         switchDelay: 0.25,
         damage: 33,
-        obstacleDamage: 3,
+        obstacledamage: 10,
         headshotMult: 1,
         noPotatoSwap: true,
         attack: {
