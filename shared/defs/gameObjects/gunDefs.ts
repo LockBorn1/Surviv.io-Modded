@@ -2030,7 +2030,7 @@ export const GunDefs: Record<string, GunDef> = {
         extendedClip: 20,
         extendedReload: 20,
         reloadTime: 2.9,
-        fireDelay: 0.1,
+        fireDelay: 0.05,
         switchDelay: 0.75,
         barrelLength: 3.75,
         barrelOffset: 0,
