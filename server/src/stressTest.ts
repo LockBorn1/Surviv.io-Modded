@@ -19,8 +19,8 @@ const config = {
     address: "http://127.0.0.1:8001",
     region: "local",
     gameModeIdx: 0,
-    botCount: 79,
-    joinDelay: 100,
+    botCount: 100,
+    joinDelay: 1,
 };
 
 //
