@@ -19,7 +19,7 @@ const _allowedMeleeSkins = [
     "bowie_vintage",
     "bowie_frontier",
 ];
-//const _allowedOutfits = [
+const _allowedOutfits = [
     "outfitBase",
     "outfitTurkey",
     "outfitDev",
