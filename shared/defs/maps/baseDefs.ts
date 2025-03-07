@@ -184,10 +184,10 @@ export const Main: MapDef = {
         tier_chrys_01: [{ name: "outfitImperial", count: 1, weight: 1 }],
         tier_chrys_02: [{ name: "katana", count: 1, weight: 1 }],
         tier_chrys_03: [
-            { name: "2xscope", count: 1, weight: 10 }, // ?
-            { name: "4xscope", count: 1, weight: 8 }, // ?
-            { name: "8xscope", count: 1, weight: 3 }, // ?
-            { name: "15xscope", count: 1, weight: 1 }, // ?
+            { name: "2xscope", count: 1, weight: 13 }, // ?
+            { name: "4xscope", count: 1, weight: 7 }, // ?
+            { name: "8xscope", count: 1, weight: 2 }, // ?
+            { name: "15xscope", count: 1, weight: 0.5 }, // ?
         ],
         tier_chrys_case: [
             { name: "", count: 1, weight: 5 }, // ?
