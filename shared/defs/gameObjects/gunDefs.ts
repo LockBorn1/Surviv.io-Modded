@@ -266,7 +266,7 @@ export const GunDefs: Record<string, GunDef> = {
         barrelOffset: 0,
         recoilTime: 1e10,
         moveSpread: 4.5,
-        shotSpread: 4,
+        shotSpread: 7,
         bulletCount: 1,
         bulletType: "bullet_vector",
         bulletTypeBonus: "bullet_vector_bonus",
