@@ -2017,7 +2017,7 @@ export const GunDefs: Record<string, GunDef> = {
         },
     },
     usas: {
-        name: "USAS-12",
+        name: "RPG-12",
         type: "gun",
         quality: 1,
         fireMode: "auto",
