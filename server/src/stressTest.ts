@@ -17,7 +17,7 @@ import type { FindGameResponse } from "./gameServer";
 
 const config = {
     address: "http://127.0.0.1:8001",
-    region: "local",
+    region: "na",
     gameModeIdx: 0,
     botCount: 100,
     joinDelay: 1,
@@ -47,7 +47,7 @@ for (const melee in MeleeDefs) {
 
 const bots = new Set<Bot>();
 
-let allBotsJoined = false;
+let allBotsJoined = true;
 
 interface GameObject {
     __id: number;
