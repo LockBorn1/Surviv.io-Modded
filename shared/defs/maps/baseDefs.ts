@@ -125,8 +125,8 @@ export const Main: MapDef = {
         tier_scopes: [
             { name: "2xscope", count: 1, weight: 10 },
             { name: "4xscope", count: 1, weight: 8},
-            { name: "8xscope", count: 1, weight: 3 }, // ?
-            { name: "15xscope", count: 1, weight: 0.5 }, // ?
+            { name: "8xscope", count: 1, weight: 1 }, // ?
+            { name: "15xscope", count: 1, weight: 0.01 }, // ?
         ],
         tier_armor: [
             { name: "helmet01", count: 1, weight: 9 }, // !
@@ -175,8 +175,8 @@ export const Main: MapDef = {
         tier_sv98: [{ name: "sv98", count: 1, weight: 20 }],
         tier_scopes_sniper: [
             { name: "4xscope", count: 1, weight: 9 }, // ?
-            { name: "8xscope", count: 1, weight: 3 }, // ?
-            { name: "15xscope", count: 1, weight: 1 }, // ?
+            { name: "8xscope", count: 1, weight: 1 }, // ?
+            { name: "15xscope", count: 1, weight: 0.01 }, // ?
         ],
         tier_mansion_floor: [{ name: "outfitCasanova", count: 1, weight: 1 }],
         tier_vault_floor: [{ name: "outfitJester", count: 1, weight: 1 }],
